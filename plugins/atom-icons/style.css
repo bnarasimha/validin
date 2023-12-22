@@ -1,0 +1,665 @@
+@font-face {
+  font-family: 'atom-icons';
+  src: url('fonts/atom-icons.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="ai-"], [class*=" ai-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'atom-icons' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.ai-Entry:before {
+  content: "\e900";
+}
+.ai-Exit:before {
+  content: "\e901";
+}
+.ai-Download:before {
+  content: "\e902";
+}
+.ai-Upload:before {
+  content: "\e903";
+}
+.ai-Cloud:before {
+  content: "\e904";
+}
+.ai-Download-to-Cloud:before {
+  content: "\e905";
+}
+.ai-Upload-to-Cloud:before {
+  content: "\e906";
+}
+.ai-Scale:before {
+  content: "\e907";
+}
+.ai-Scale_2:before {
+  content: "\e908";
+}
+.ai-Scale_3:before {
+  content: "\e909";
+}
+.ai-Stretch:before {
+  content: "\e90a";
+}
+.ai-Left:before {
+  content: "\e90b";
+}
+.ai-Right:before {
+  content: "\e90c";
+}
+.ai-Up:before {
+  content: "\e90d";
+}
+.ai-Down:before {
+  content: "\e90e";
+}
+.ai-Left_2:before {
+  content: "\e90f";
+}
+.ai-Right_2:before {
+  content: "\e910";
+}
+.ai-Left_3:before {
+  content: "\e911";
+}
+.ai-Right_3:before {
+  content: "\e912";
+}
+.ai-Left_4:before {
+  content: "\e913";
+}
+.ai-Right_4:before {
+  content: "\e914";
+}
+.ai-Check:before {
+  content: "\e915";
+}
+.ai-Close:before {
+  content: "\e916";
+}
+.ai-Plus:before {
+  content: "\e917";
+}
+.ai-Minus:before {
+  content: "\e918";
+}
+.ai-Info:before {
+  content: "\e919";
+}
+.ai-Question:before {
+  content: "\e91a";
+}
+.ai-Warning:before {
+  content: "\e91b";
+}
+.ai-Update:before {
+  content: "\e91c";
+}
+.ai-reset:before {
+  content: "\e91c";
+}
+.ai-Update1:before {
+  content: "\e91d";
+}
+.ai-reset_2:before {
+  content: "\e91d";
+}
+.ai-Go-back:before {
+  content: "\e91e";
+}
+.ai-Forward:before {
+  content: "\e91f";
+}
+.ai-Update2:before {
+  content: "\e920";
+}
+.ai-reset_3:before {
+  content: "\e920";
+}
+.ai-Update3:before {
+  content: "\e921";
+}
+.ai-reset_4:before {
+  content: "\e921";
+}
+.ai-Left_5:before {
+  content: "\e922";
+}
+.ai-Right_5:before {
+  content: "\e923";
+}
+.ai-Hourglass:before {
+  content: "\e924";
+}
+.ai-Hourglass_2:before {
+  content: "\e925";
+}
+.ai-Watch:before {
+  content: "\e926";
+}
+.ai-Calendar:before {
+  content: "\e927";
+}
+.ai-Timer:before {
+  content: "\e928";
+}
+.ai-Alarm-clock:before {
+  content: "\e929";
+}
+.ai-Battery:before {
+  content: "\e92a";
+}
+.ai-Battery_2:before {
+  content: "\e92b";
+}
+.ai-Battery_3:before {
+  content: "\e92c";
+}
+.ai-Battery_4:before {
+  content: "\e92d";
+}
+.ai-Laptop:before {
+  content: "\e92e";
+}
+.ai-Laptop_2:before {
+  content: "\e92f";
+}
+.ai-Monitor:before {
+  content: "\e930";
+}
+.ai-Monitor_2:before {
+  content: "\e931";
+}
+.ai-Tablet:before {
+  content: "\e932";
+}
+.ai-Phone:before {
+  content: "\e933";
+}
+.ai-Phone_2:before {
+  content: "\e934";
+}
+.ai-Watch1:before {
+  content: "\e935";
+}
+.ai-Photo:before {
+  content: "\e936";
+}
+.ai-Mouse:before {
+  content: "\e937";
+}
+.ai-Headphones:before {
+  content: "\e938";
+}
+.ai-Controller:before {
+  content: "\e939";
+}
+.ai-Video:before {
+  content: "\e93a";
+}
+.ai-Keyboard:before {
+  content: "\e93b";
+}
+.ai-USB:before {
+  content: "\e93c";
+}
+.ai-Window:before {
+  content: "\e93d";
+}
+.ai-Music:before {
+  content: "\e93e";
+}
+.ai-Add-to-playlist:before {
+  content: "\e93f";
+}
+.ai-Playlist:before {
+  content: "\e940";
+}
+.ai-Sound:before {
+  content: "\e941";
+}
+.ai-Sound_2:before {
+  content: "\e942";
+}
+.ai-Sound_3:before {
+  content: "\e943";
+}
+.ai-Sound_4:before {
+  content: "\e944";
+}
+.ai-Sound_5:before {
+  content: "\e945";
+}
+.ai-Microphone:before {
+  content: "\e946";
+}
+.ai-Compact-disc:before {
+  content: "\e947";
+}
+.ai-Play:before {
+  content: "\e948";
+}
+.ai-Play_2:before {
+  content: "\e949";
+}
+.ai-Pause:before {
+  content: "\e94a";
+}
+.ai-Previous:before {
+  content: "\e94b";
+}
+.ai-Next:before {
+  content: "\e94c";
+}
+.ai-Previous1:before {
+  content: "\e94d";
+}
+.ai-Next1:before {
+  content: "\e94e";
+}
+.ai-Sound-waves:before {
+  content: "\e94f";
+}
+.ai-Audio-Speakers:before {
+  content: "\e950";
+}
+.ai-Video1:before {
+  content: "\e951";
+}
+.ai-Options:before {
+  content: "\e952";
+}
+.ai-Filter:before {
+  content: "\e953";
+}
+.ai-Filter_2:before {
+  content: "\e954";
+}
+.ai-Tag:before {
+  content: "\e955";
+}
+.ai-Shopping-Cart:before {
+  content: "\e956";
+}
+.ai-Shopping-Cart_2:before {
+  content: "\e957";
+}
+.ai-Shopping-Cart_3:before {
+  content: "\e958";
+}
+.ai-Shopping-Cart_4:before {
+  content: "\e959";
+}
+.ai-Discount:before {
+  content: "\e95a";
+}
+.ai-Shopping-Cart_5:before {
+  content: "\e95b";
+}
+.ai-Options_2:before {
+  content: "\e95c";
+}
+.ai-Gift:before {
+  content: "\e95d";
+}
+.ai-Box:before {
+  content: "\e95e";
+}
+.ai-Delivery:before {
+  content: "\e95f";
+}
+.ai-Umbrella:before {
+  content: "\e960";
+}
+.ai-Diagram:before {
+  content: "\e961";
+}
+.ai-Diagram_2:before {
+  content: "\e962";
+}
+.ai-Diagram_3:before {
+  content: "\e963";
+}
+.ai-Diagram_4:before {
+  content: "\e964";
+}
+.ai-Diagram_5:before {
+  content: "\e965";
+}
+.ai-Diagram_6:before {
+  content: "\e966";
+}
+.ai-Credit-card:before {
+  content: "\e967";
+}
+.ai-Purse:before {
+  content: "\e968";
+}
+.ai-Payment-systems:before {
+  content: "\e969";
+}
+.ai-Dollar:before {
+  content: "\e96a";
+}
+.ai-Dollar_2:before {
+  content: "\e96b";
+}
+.ai-Avatar:before {
+  content: "\e96c";
+}
+.ai-Avatar_2:before {
+  content: "\e96d";
+}
+.ai-Contact:before {
+  content: "\e96e";
+}
+.ai-Avatar_3:before {
+  content: "\e96f";
+}
+.ai-Avatar_4:before {
+  content: "\e970";
+}
+.ai-Avatar_5:before {
+  content: "\e971";
+}
+.ai-The-envelope:before {
+  content: "\e972";
+}
+.ai-The-envelope_2:before {
+  content: "\e973";
+}
+.ai-E-mail:before {
+  content: "\e974";
+}
+.ai-Comment:before {
+  content: "\e975";
+}
+.ai-Comment_2:before {
+  content: "\e976";
+}
+.ai-Comment_3:before {
+  content: "\e977";
+}
+.ai-Comment_4:before {
+  content: "\e978";
+}
+.ai-Comment_5:before {
+  content: "\e979";
+}
+.ai-Comment_6:before {
+  content: "\e97a";
+}
+.ai-Handset:before {
+  content: "\e97b";
+}
+.ai-Handset_2:before {
+  content: "\e97c";
+}
+.ai-Handset_3:before {
+  content: "\e97d";
+}
+.ai-Handset_4:before {
+  content: "\e97e";
+}
+.ai-Handset_5:before {
+  content: "\e97f";
+}
+.ai-Handset_6:before {
+  content: "\e980";
+}
+.ai-Connectivity:before {
+  content: "\e981";
+}
+.ai-Map:before {
+  content: "\e982";
+}
+.ai-Pointer:before {
+  content: "\e983";
+}
+.ai-Pointer_2:before {
+  content: "\e984";
+}
+.ai-Pointer_3:before {
+  content: "\e985";
+}
+.ai-Pointer_4:before {
+  content: "\e986";
+}
+.ai-Location:before {
+  content: "\e987";
+}
+.ai-Pointer_5:before {
+  content: "\e988";
+}
+.ai-Clip:before {
+  content: "\e989";
+}
+.ai-Schedule:before {
+  content: "\e98a";
+}
+.ai-Drawing-pin:before {
+  content: "\e98b";
+}
+.ai-Paper:before {
+  content: "\e98c";
+}
+.ai-Paper_2:before {
+  content: "\e98d";
+}
+.ai-Paper_3:before {
+  content: "\e98e";
+}
+.ai-Portfolio:before {
+  content: "\e98f";
+}
+.ai-Box-for-papers:before {
+  content: "\e990";
+}
+.ai-Box-for-papers_2:before {
+  content: "\e991";
+}
+.ai-Boxes-for-papers:before {
+  content: "\e992";
+}
+.ai-Notebook:before {
+  content: "\e993";
+}
+.ai-Notebook_2:before {
+  content: "\e994";
+}
+.ai-Book:before {
+  content: "\e995";
+}
+.ai-Book_2:before {
+  content: "\e996";
+}
+.ai-Folder:before {
+  content: "\e997";
+}
+.ai-Folder_2:before {
+  content: "\e998";
+}
+.ai-Folder_3:before {
+  content: "\e999";
+}
+.ai-Folder_4:before {
+  content: "\e99a";
+}
+.ai-Folder_5:before {
+  content: "\e99b";
+}
+.ai-Folder_6:before {
+  content: "\e99c";
+}
+.ai-Crop:before {
+  content: "\e99d";
+}
+.ai-Picture:before {
+  content: "\e99e";
+}
+.ai-Pen:before {
+  content: "\e99f";
+}
+.ai-Pencil:before {
+  content: "\e9a0";
+}
+.ai-Brush:before {
+  content: "\e9a1";
+}
+.ai-Edit:before {
+  content: "\e9a2";
+}
+.ai-Eye:before {
+  content: "\e9a3";
+}
+.ai-Colors:before {
+  content: "\e9a4";
+}
+.ai-Diamond:before {
+  content: "\e9a5";
+}
+.ai-Cube:before {
+  content: "\e9a6";
+}
+.ai-Brightness:before {
+  content: "\e9a7";
+}
+.ai-Brightness_2:before {
+  content: "\e9a8";
+}
+.ai-Before-and-after:before {
+  content: "\e9a9";
+}
+.ai-Search:before {
+  content: "\e9aa";
+}
+.ai-Zoom-in:before {
+  content: "\e9ab";
+}
+.ai-Zoom-out:before {
+  content: "\e9ac";
+}
+.ai-lock:before {
+  content: "\e9ad";
+}
+.ai-lock_2:before {
+  content: "\e9ae";
+}
+.ai-Key:before {
+  content: "\e9af";
+}
+.ai-Rating:before {
+  content: "\e9b0";
+}
+.ai-Like:before {
+  content: "\e9b1";
+}
+.ai-Bell:before {
+  content: "\e9b2";
+}
+.ai-Crown:before {
+  content: "\e9b3";
+}
+.ai-Share:before {
+  content: "\e9b4";
+}
+.ai-Settings:before {
+  content: "\e9b5";
+}
+.ai-Bookmark:before {
+  content: "\e9b6";
+}
+.ai-Bookmark_2:before {
+  content: "\e9b7";
+}
+.ai-Bookmark_3:before {
+  content: "\e9b8";
+}
+.ai-Security:before {
+  content: "\e9b9";
+}
+.ai-Security_2:before {
+  content: "\e9ba";
+}
+.ai-Security_3:before {
+  content: "\e9bb";
+}
+.ai-Settings_2:before {
+  content: "\e9bc";
+}
+.ai-Settings_3:before {
+  content: "\e9bd";
+}
+.ai-Home:before {
+  content: "\e9be";
+}
+.ai-Way:before {
+  content: "\e9bf";
+}
+.ai-Cursor:before {
+  content: "\e9c0";
+}
+.ai-Form:before {
+  content: "\e9c1";
+}
+.ai-Basket:before {
+  content: "\e9c2";
+}
+.ai-Send:before {
+  content: "\e9c3";
+}
+.ai-Print:before {
+  content: "\e9c4";
+}
+.ai-Like1:before {
+  content: "\e9c5";
+}
+.ai-Dislike:before {
+  content: "\e9c6";
+}
+.ai-Delete:before {
+  content: "\e9c7";
+}
+.ai-Fire:before {
+  content: "\e9c8";
+}
+.ai-Lightning:before {
+  content: "\e9c9";
+}
+.ai-Enable:before {
+  content: "\e9ca";
+}
+.ai-Bind:before {
+  content: "\e9cb";
+}
+.ai-Lamp:before {
+  content: "\e9cc";
+}
+.ai-Flag:before {
+  content: "\e9cd";
+}
+.ai-Lighting:before {
+  content: "\e9ce";
+}
+.ai-Slide:before {
+  content: "\e9cf";
+}
+.ai-Menu:before {
+  content: "\e9d0";
+}
+.ai-Menu_2:before {
+  content: "\e9d1";
+}
